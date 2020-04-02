@@ -1,0 +1,186 @@
+.repositories-container{
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 30px;
+    margin: 32px auto;
+}
+
+.repositories-container header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #E3E3E3;
+    border-radius: 5px
+}
+
+
+.repositories-container header img{
+    height: 100px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.repositories-container header div {
+    display: block;
+    justify-content: left;
+    width: 100%;
+    margin-right: 20px;
+}
+
+.repositories-container header div div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: 20px;
+}
+
+.repositories-container header div div.actionsProfiler{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.repositories-container header div h1{
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+
+    color: #615454;
+}
+
+.acess-git-link{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #615454;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 30px;
+    align-content: space-between;
+    transition: color 0.2s;
+}
+.acess-git-link:hover{
+    color: #78C2DA;
+}
+
+
+.repositories-container header div div button{
+    height: 35px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    filter: brightness(80%);
+    transition: filter 0.2s;
+}
+
+.repositories-container header div div button:hover{
+   filter: brightness(100%);
+}
+
+
+.repositories-container header div ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.repositories-container header div ul li{
+    list-style-type: none;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #615454;
+    display: flex;
+    align-content: space-between;
+    margin-left: 5px;
+}
+.repositories-container header div ul li p{
+    font-weight: bold;
+}
+
+
+.main-content  ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    list-style: none;
+    margin-top: 20px;
+   
+}
+
+.main-content ul li {
+    width: 80%;
+    background: #ED8E8E;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.acess-git-repo-link {
+    position: absolute;
+    right: 24px;
+    top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    color: #615454;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.acess-git-repo-link:hover{
+    color: #78C2DA;
+}
+
+.main-content ul li h2{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.main-content ul li h3{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #615454;
+}
+
+.main-content ul li strong {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-content ul li strong p {
+    color: #615454;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
